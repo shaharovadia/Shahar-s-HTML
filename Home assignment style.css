@@ -1,0 +1,84 @@
+*{margin: 0;
+padding: 0;
+scroll-behavior: smooth;}
+
+body {background-color: rgb(155, 243, 96);
+    font-family:Georgia, 'Times New Roman', Times, 
+    serif ; font-size: larger;}
+
+header {background-color: #bbff94;}
+.text p{margin: 15px;}
+.navbar ul{list-style-type: none;
+background-color: rgb(82, 82, 82);
+padding:0px;
+margin: 10px;
+overflow: hidden;
+}
+
+.navbar a{color: white;
+text-decoration: none;
+padding: 15px;
+display: block;
+text-align: center;}
+
+.navbar a:hover
+{background-color: rgb(180, 180, 180);
+}
+.navbar li{float: left;}
+
+.container {display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;}
+#description{background-color:#98e26d;}
+
+#history{background-color:#7bb459 ;}
+
+#healthbenefits{background-color: #57863c;}
+
+.image {width: 100%;width:250px;}
+
+  .cardscontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    width: 200px;
+    height: 320px;
+    margin: 10px;
+    background-color: #62aa31; 
+    border-radius: 50px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card p {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .footer {
+  position:static ;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOWOetsGejJF7xE3N7s1V_Q_I41qLFiWPFmA&usqp=CAU);
+  bottom: 0; 
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  .footer-image {
+    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+  
